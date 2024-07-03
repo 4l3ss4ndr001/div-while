@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/java.js"></script>
+</head>
+<body>
+    <div class="cabecera">
+        <div style="width:75% ; margin: auto;">
+            <div style="float:left ;">
+                Instituto Certus
+            </div>
+            <div style="float:right ;">
+                Programacion web- while
+            </div>
+            <div>
+                <img src="img/banner2.jpg" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+        <div class="cuerpo">
+            <div id="barra">
+                <p>Menú principal</p>
+                <ul>
+                    <li><a href="#" onclick="mostrarpag('pagina1')">oficina</a></li>
+                    <li><a href="#" onclick="mostrarpag('pagina2')">multifamiliar</a></li>
+                    <li><a href="#" onclick="mostrarpag('pagina3')">plano de interior</a></li>
+                    <li><a href="#" onclick="mostrarpag('pagina4')">mansion</a></li>
+                    <li><a href="#" onclick="cerrar();">Cerrar sesión</a></li>
+                </ul>
+            </div>
+            <div id="contenido">
+                <div id="pagina1" class="pag active">
+                    <h1>plan de oficina</h1>
+                    <p> capacidad 25 personas</p>
+                    <img src="img/oficina.jpg" width="100%" alt="">
+                </div>
+                <div id="pagina2" class="pag">
+                    <h1>modelo multifamiliar</h1>
+                    <p>cacina- dormitorio- baño- sala</p>
+                    <img src="img/multifamiliar.jpg" width="100%" alt="">
+                </div>
+                <div id="pagina3" class="pag">
+                    <h1>interior de edificios</h1>
+                    <p>interior amoblado con piscina</p>
+                    <img src="img/edificio.jpg" width="100%" alt="">
+                </div>
+                <div id="pagina4" class="pag">
+                    <h1>mansion</h1>
+                    <p>todo lo que te imaginas</p>
+                    <img src="img/mansion.jpg" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="pie">
+            <div style="width:100% ;">
+                <div style="text-align: center;">
+                    Autor: Alessandro Garcia<br>
+                    Instituto Certus | Carreras tecnicas y Educacion continua
+                </div>
+            </div>
+        </div>
+        <script src="js/funciones.js"></script>
+</body>
+</html>
